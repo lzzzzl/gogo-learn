@@ -11,7 +11,10 @@ require (
 )
 
 require (
+	github.com/go-co-op/gocron v1.18.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/robfig/cron/v3 v3.0.1 // indirect
+	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/sys v0.3.0 // indirect
 	golang.org/x/text v0.5.0 // indirect
 )
