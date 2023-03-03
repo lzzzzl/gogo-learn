@@ -12,7 +12,7 @@ import (
 func Client1() *redis.Client {
 	return redis.NewClient(&redis.Options{
 		Addr:     "localhost:6379",
-		Password: "dbdd6fea7a96845b",
+		Password: "",
 		DB:       0, // use default database
 	})
 }
